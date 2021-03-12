@@ -1,7 +1,4 @@
-
-const express = require('express')
-
-const product = [
+product = [
     {
       "product_id": "001",
       "product_name": "apple",

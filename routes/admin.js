@@ -6,7 +6,7 @@ const rootDir = require('../util/path');
 
 const router = express.Router();
 
-const products = require('product') ;
+const products = require('../model/product') ;
 
 // /admin/add-product => GET
 router.get('/add-product', (req, res, next) => {
