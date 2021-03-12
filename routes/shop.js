@@ -9,7 +9,8 @@ const product = require('../model/product');
 const router = express.Router();
 
 router.get('/', (req, res, next) => {
-  const products = product;
+  console.log('dd');
+  const products = product.product;
   res.render('shop', {
     prods: products,
     pageTitle: 'Shop',
