@@ -9,16 +9,16 @@
             <div class="grid">
                     <article class="card product-item">
                         <header class="card__header">
-                            <h1 class="product__title"><%= prods.product_id %></h1>
-                            <h1 class="product__title"><%= prods.product_name %></h1>
+                            <h1 class="product__title">Product ID:<%= prods.product_id%></h1>
+                            <h1 class="product__title">Product Name:<%= prods.product_name %></h1>
                         </header>
                         <div class="card__image">
                             <img src="<%= product.image_path %>"
                                 alt="A Book">
                         </div>
                         <div class="card__content">
-                            <h2 class="product__price">$<%= prods.price %></h2>
-                            <p class="product__description">$<%= prods.detail %></p>
+                            <h2 class="product__price">Price:$<%= prods.price %></h2>
+                            <p class="product__description">Description:<%= prods.detail %></p>
                         </div>
                     </article>
             </div>
